@@ -22,14 +22,22 @@ imprimir pantalla usando funciones
 
 
 */
+  typedef enum Months{ENERO,FEBRERO,MARZO,ABRIL,MAYO,JUNIO,JULIO,AGOSTO,SEPTIEMBRE,OCTUBRE,NOVIEMBRE,DICIEMBRE};
+  typedef enum Days{LU,MA,MI,JU,VI,SA,DO};
   int month;
   int year;
+  char equal="=";
+  char punto=".";
+  char barra="|";
 
   printf("¿Mes (1..12?");
   scanf("%d",&month);
   printf("\n");
   printf("¿Ano (1601..3000)?");
   scanf("%d",&year);
+
+
+
 
 
   return 0;
