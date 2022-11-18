@@ -29,6 +29,7 @@ imprimir pantalla usando funciones
   char equal="=";
   char punto=".";
   char barra="|";
+  int diasmes;
 
   printf("¿Mes (1..12?");
   scanf("%d",&month);
